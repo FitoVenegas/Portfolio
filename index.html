@@ -206,6 +206,46 @@
             text-align: center;
             padding: 10px;
         }
+        /* Media Queries para responsividad */
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+        align-items: center;
+    }
+
+    .about-content {
+        max-width: 100%; /* Permitir que ocupe todo el ancho */
+        text-align: center; /* Centrar el texto */
+    }
+
+    .profile-pic {
+        width: 120px; /* Tamaño de imagen de perfil más pequeño */
+    }
+
+    .navbar {
+        flex-direction: column; /* Cambiar la dirección de la navbar */
+        align-items: center;
+    }
+
+    .navbar ul {
+        flex-direction: column; /* Cambiar la dirección de los elementos de la navbar */
+        padding: 0; /* Eliminar padding para la lista */
+    }
+
+    .navbar li {
+        margin: 5px 0; /* Espaciado vertical entre los enlaces */
+    }
+
+    .skills-container, .projects-container {
+        flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+        align-items: center; /* Centrar los elementos */
+    }
+
+    .skill-card, .project-card {
+        max-width: 90%; /* Aumentar el ancho máximo en pantallas pequeñas */
+    }
+}
+
     </style>
 </head>
 <body>
