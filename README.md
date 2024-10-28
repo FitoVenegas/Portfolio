@@ -22,7 +22,7 @@ El portafolio incluye las siguientes secciones:
 
 ## Estilos de Diseño
 
-- Colores neutros y acentos en azul (`#34495e`, `#2980b9`) para una apariencia profesional y minimalista.
+- Colores neutros y acentos en azul para una apariencia profesional y minimalista.
 - Transiciones en botones y tarjetas para mejorar la experiencia del usuario.
 
 
